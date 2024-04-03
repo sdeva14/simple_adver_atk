@@ -1,0 +1,3 @@
+model:
+  pretrained_weights: google/vit-base-patch16-224-in21k
+  attack_method: PGD

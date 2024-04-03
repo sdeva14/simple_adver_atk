@@ -1,0 +1,3 @@
+model:
+  pretrained_weights: microsoft/resnet-50
+  attack_method: PGD

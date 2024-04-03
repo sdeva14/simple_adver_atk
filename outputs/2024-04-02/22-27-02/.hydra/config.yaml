@@ -1,0 +1,9 @@
+model:
+  pretrained_weights: google/vit-base-patch16-224-in21k
+  attack_method: PGD
+training:
+  num_epochs: 1
+  learning_rate: 2.0e-05
+dataset:
+  name: cifar10
+  logs: logs/
