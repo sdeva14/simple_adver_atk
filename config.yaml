@@ -6,6 +6,7 @@ training:
   num_epochs: 1
   learning_rate: 2e-5
   batch_size: 10
+  save_log: False
 
 dataset:
   name: "cifar10"

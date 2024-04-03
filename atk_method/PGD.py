@@ -22,6 +22,8 @@ class Attack_PGD(Attack_Base):
         '''
         empty for base wrapper
         -> will be used to perform the attack method
+
+        quoted from "adversarial-attacks-pytorch" library; https://github.com/Harry24k/adversarial-attacks-pytorch
         '''
 
         images = images.clone().detach().to(self.device)
